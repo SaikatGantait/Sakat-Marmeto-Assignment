@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmeto Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="navbar">
+            
+            <div class="logo">
+                <img src="logo.png" alt="Marmeto Logo" class="logo-icon">
+                <span>Marmeto</span>
+            </div>
+            
+           
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+
+            <div class="header-icons">
+                <input type="text" placeholder="Search...">
+                <a href="#"><img src="wishlist.png" alt="Wishlist"></a>
+                <a href="#"><img src="cart.png" alt="Cart"></a>
+            </div>
+        </header>
+    <main>
+        <section class="breadcrumb">
+            <div style="background-image: url('background.png');">
+                   <h1>Cart</h1>
+                <p>Home > Cart</p>
+          </div>
+            
+        </section>
+        <div class="cart-container">
+            <div class="cart-items">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="product-info">
+                                <img src="sofa.png" alt="Asgaard sofa">
+                                <span>Asgaard sofa</span>
+                            </td>
+                            <td>Rs. 250,000.00</td>
+                            <td>
+                                <input type="number" id="quantity" value="1" min="1" onchange="updateTotal()">
+                            </td>
+                            <td id="subtotal">Rs. 250,000.00</td>
+                            <td>
+                                <button onclick="removeItem()" class="remove-btn">🗑️</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            
+            <div class="cart-totals">
+                <h2>Cart Totals</h2>
+                <div class="totals-line">
+                    <span>Subtotal</span>
+                    <span id="subtotalDisplay">Rs. 250,000.00</span>
+                </div>
+                <div class="totals-line">
+                    <span>Total</span>
+                    <span id="total" class="highlight">Rs. 250,000.00</span>
+                </div>
+                <button id="checkoutBtn">Check Out</button>
+            </div>
+        </div>
+    
+    </main>
+
+       
+    
+        <footer>
+            <div class="service-icons">
+                <div class="service">
+                    <img src="High Quality.png" alt="High Quality">
+                    <span>High Quality</span>
+                    <p>crafted from top materials</p>
+                </div>
+                <div class="service">
+                    <img src="warranty.png" alt="Warranty Protection">
+                    <span>Warranty Protection</span>
+                    <p>Over 2 years</p>
+                </div>
+                <div class="service">
+                    <img src="free-shipping-icon.png" alt="Free Shipping">
+                    <span>Free Shipping</span>
+                    <p>Order over 150 $</p>
+                </div>
+                <div class="service">
+                    <img src="Support.png" alt="24/7 Support">
+                    <span>24 / 7 Support</span>
+                    <p>Dedicated support</p>
+                </div>
+            </div>
+        </footer>
+    
+       
+        <script src="script.js"></script>
+
+    </body>
+    </html>
+    
+
