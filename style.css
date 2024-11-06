@@ -66,18 +66,6 @@ header {
 }
 
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.navbar nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: rgb(14, 13, 13);
-    
-}
-
 .breadcrumb {
     padding: 2rem;
     text-align: center;
@@ -131,11 +119,6 @@ header {
 
 .breadcrumb {
     margin-bottom: 20px;
-}
-
-.breadcrumb a {
-    text-decoration: none;
-    color: #d7dfe7;
 }
 
 .breadcrumb span {
@@ -220,7 +203,6 @@ button:hover {
     color: #e0d1d1;
     border-color: #333;
 }
-
 
 
 .highlight {
