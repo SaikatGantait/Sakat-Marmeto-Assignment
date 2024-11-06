@@ -1,4 +1,14 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4ebeb;
+}
 
 header {
     display: flex;
@@ -53,16 +63,6 @@ header {
 
 .nav-links a:hover {
     color: #3c3736;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: #f4ebeb;
 }
 
 
@@ -165,7 +165,6 @@ table th, table td {
     background-color:rgb(247, 240, 240)2;
     text-align: center;
 }
-
 
 
 footer {
